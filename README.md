@@ -11,6 +11,22 @@ This project is designed to run on a Wemos D1 board and performs several functio
 - **OTA Updates**: Checks for firmware updates and performs OTA updates if a new version is available.
 - **Miscellaneous**: Controls a humidifier based on humidity levels, logs data to ThingSpeak, and handles various hardware configurations and resets.
 
+## Collected Gases and Parameters
+
+The device collects the following gases and environmental parameters:
+
+- **Temperature** (°C)
+- **Humidity** (% RH)
+- **Pressure** (hPa)
+- **Carbon Monoxide (CO)** (ppm)
+- **Nitrogen Dioxide (NO2)** (ppm)
+- **Ammonia (NH3)** (ppm)
+- **Propane (C3H8)** (ppm)
+- **Butane (C4H10)** (ppm)
+- **Methane (CH4)** (ppm)
+- **Hydrogen (H2)** (ppm)
+- **Ethanol (C2H5OH)** (ppm)
+
 ## Getting Started
 
 ### Prerequisites
